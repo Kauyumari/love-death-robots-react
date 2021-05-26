@@ -19,6 +19,7 @@ const Comp = () => {
   return (
 	<View style={{ flex: 1 }}>
 		<Sequence
+			name='Audio Track'
 			from={20} 
 			durationInFrames={cuts.reduce((prev, curr) => prev + curr,0) - 20}
 		>
