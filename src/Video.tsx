@@ -4,16 +4,16 @@ import LoveDeathReact from "./LoveDeathReact";
 
 export const RemotionVideo = () => {
   return (
-    <>
-      <Composition
-        id="LoveDeathReact"
-        component={LoveDeathReact}
-        durationInFrames={14 * 24 + 21}
-        fps={24}
-        width={3840}
-        height={2160}
+	<>
+		<Composition
+			id="LoveDeathReact"
+			component={LoveDeathReact}
+			durationInFrames={14 * 24 + 21}
+			fps={24}
+			width={3840}
+			height={2160}
       />
-    </>
+	</>
   );
 };
 
